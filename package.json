@@ -1,0 +1,43 @@
+{
+  "name": "craftly-marketplace",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Craftly - an Etsy-inspired e-commerce marketplace powered by Turso (libSQL)",
+  "scripts": {
+    "dev": "concurrently -n server,client -c green,cyan \"npm run dev:server\" \"npm run dev:client\"",
+    "dev:server": "node --env-file-if-exists=.env server/index.js",
+    "dev:client": "vite --port 5273",
+    "db:migrate": "node --env-file-if-exists=.env scripts/migrate.js",
+    "db:seed": "node --env-file-if-exists=.env scripts/seed.js",
+    "db:daily": "node --env-file-if-exists=.env scripts/daily-listings.js",
+    "db:bulk": "node --env-file-if-exists=.env scripts/seed-bulk.js",
+    "db:images": "node --env-file-if-exists=.env scripts/generate-images.mjs --regen",
+    "db:photos": "node scripts/fetch-photos.mjs",
+    "db:assign-photos": "node --env-file-if-exists=.env scripts/assign-photos.js",
+    "db:push": "node --env-file-if-exists=.env scripts/migrate-to-turso.mjs",
+    "db:deploy-size": "node scripts/check-deploy-size.mjs",
+    "db:init": "npm run db:migrate && npm run db:seed && npm run db:bulk",
+    "build": "vite build",
+    "preview": "vite preview --port 5273",
+    "start": "NODE_ENV=production node --env-file-if-exists=.env server/index.js",
+    "test:api": "node --env-file-if-exists=.env scripts/api-tests.js"
+  },
+  "dependencies": {
+    "@libsql/client": "^0.15.0",
+    "bcryptjs": "^3.0.2",
+    "express": "^4.21.2",
+    "framer-motion": "^14.0.0",
+    "lucide-react": "^0.525.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.30.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.1.11",
+    "@vitejs/plugin-react": "^4.6.0",
+    "concurrently": "^9.1.2",
+    "tailwindcss": "^4.1.11",
+    "vite": "^6.3.5"
+  }
+}

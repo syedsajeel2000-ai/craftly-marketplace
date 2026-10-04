@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400" role="img" aria-label="Digital Products category">
+  <defs><linearGradient id="c3" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#6366F1"/><stop offset="100%" stop-color="#1E1B4B"/>
+  </linearGradient></defs>
+  <rect width="400" height="400" fill="url(#c3)"/>
+  <rect x="133" y="181" width="29" height="29" rx="8" fill="white" opacity="0.12" transform="rotate(39 133 181)"/><rect x="216" y="242" width="46" height="46" rx="8" fill="white" opacity="0.12" transform="rotate(80 216 242)"/><rect x="299" y="303" width="63" height="63" rx="8" fill="white" opacity="0.12" transform="rotate(121 299 303)"/><rect x="62" y="44" width="34" height="34" rx="8" fill="white" opacity="0.12" transform="rotate(162 62 44)"/><rect x="145" y="105" width="51" height="51" rx="8" fill="white" opacity="0.12" transform="rotate(203 145 105)"/>
+  <text x="200" y="215" text-anchor="middle" font-family="Georgia, serif" font-size="42" font-weight="700" fill="white" opacity="0.95">Digital Products</text>
+</svg>

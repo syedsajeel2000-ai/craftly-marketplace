@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400" role="img" aria-label="Handmade category">
+  <defs><linearGradient id="c0" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#EC4899"/><stop offset="100%" stop-color="#831843"/>
+  </linearGradient></defs>
+  <rect width="400" height="400" fill="url(#c0)"/>
+  <rect x="40" y="40" width="26" height="26" rx="8" fill="white" opacity="0.12" transform="rotate(0 40 40)"/><rect x="123" y="101" width="43" height="43" rx="8" fill="white" opacity="0.12" transform="rotate(41 123 101)"/><rect x="206" y="162" width="60" height="60" rx="8" fill="white" opacity="0.12" transform="rotate(82 206 162)"/><rect x="289" y="223" width="31" height="31" rx="8" fill="white" opacity="0.12" transform="rotate(123 289 223)"/><rect x="52" y="284" width="48" height="48" rx="8" fill="white" opacity="0.12" transform="rotate(164 52 284)"/>
+  <text x="200" y="215" text-anchor="middle" font-family="Georgia, serif" font-size="42" font-weight="700" fill="white" opacity="0.95">Handmade</text>
+</svg>

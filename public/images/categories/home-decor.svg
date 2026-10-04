@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400" role="img" aria-label="Home Decor category">
+  <defs><linearGradient id="c2" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#EF4444"/><stop offset="100%" stop-color="#7F1D1D"/>
+  </linearGradient></defs>
+  <rect width="400" height="400" fill="url(#c2)"/>
+  <rect x="102" y="134" width="28" height="28" rx="8" fill="white" opacity="0.12" transform="rotate(26 102 134)"/><rect x="185" y="195" width="45" height="45" rx="8" fill="white" opacity="0.12" transform="rotate(67 185 195)"/><rect x="268" y="256" width="62" height="62" rx="8" fill="white" opacity="0.12" transform="rotate(108 268 256)"/><rect x="351" y="317" width="33" height="33" rx="8" fill="white" opacity="0.12" transform="rotate(149 351 317)"/><rect x="114" y="58" width="50" height="50" rx="8" fill="white" opacity="0.12" transform="rotate(190 114 58)"/>
+  <text x="200" y="215" text-anchor="middle" font-family="Georgia, serif" font-size="42" font-weight="700" fill="white" opacity="0.95">Home Decor</text>
+</svg>

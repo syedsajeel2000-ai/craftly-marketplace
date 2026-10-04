@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400" role="img" aria-label="Art category">
+  <defs><linearGradient id="c5" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#F43F5E"/><stop offset="100%" stop-color="#881337"/>
+  </linearGradient></defs>
+  <rect width="400" height="400" fill="url(#c5)"/>
+  <rect x="195" y="275" width="31" height="31" rx="8" fill="white" opacity="0.12" transform="rotate(65 195 275)"/><rect x="278" y="336" width="48" height="48" rx="8" fill="white" opacity="0.12" transform="rotate(106 278 336)"/><rect x="41" y="77" width="65" height="65" rx="8" fill="white" opacity="0.12" transform="rotate(147 41 77)"/><rect x="124" y="138" width="36" height="36" rx="8" fill="white" opacity="0.12" transform="rotate(188 124 138)"/><rect x="207" y="199" width="53" height="53" rx="8" fill="white" opacity="0.12" transform="rotate(229 207 199)"/>
+  <text x="200" y="215" text-anchor="middle" font-family="Georgia, serif" font-size="42" font-weight="700" fill="white" opacity="0.95">Art</text>
+</svg>

@@ -1,0 +1,21 @@
+# Never uploaded to Vercel — local-only state and generated artifacts.
+node_modules
+dist
+data
+.vercel
+
+# Local secrets
+.env
+.env.local
+.env.*.local
+
+# Logs / editor cruft
+*.log
+.DS_Store
+.idea
+.vscode
+
+# Legacy generated SVG artwork (~36 MB). Every listing now uses real
+# photographs from public/images/photos, so nothing references these.
+# Regenerate locally any time with `npm run db:images`.
+public/images/products
